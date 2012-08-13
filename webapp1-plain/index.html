@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!-- Try this code out from your iOS at http://gregsramblings.com/webapp1 -->
+<html>
+<head>
+	<title>WebApp Title</title>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+	<!-- Make this thing web-app capable -->
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+	<!-- iPhone non-retina 57x57 -->
+	<link rel="apple-touch-icon" href="icon57.png"/>
+	<!-- iPad non-retina 72x72 -->
+	<link rel="apple-touch-icon" sizes="72x72" href="icon72.png"/>
+	<!-- iPhone retina 114x114 -->
+	<link rel="apple-touch-icon" sizes="114x114" href="icon114.png"/>
+	<!-- iPad retina 144x144 -->
+	<link rel="apple-touch-icon" sizes="144x144" href="icon144.png"/>
+
+	<!-- iPhone standard resolution 320x460  (landscape not needed because all web apps start portrait on iPhone) -->
+	<link  rel="apple-touch-startup-image" href="splash-320x460.jpg" media="(device-width: 320px)" />
+	<!-- iPhone high resolution (retina) 640x920 pixels (landscape not needed because all web apps start portrait on iPhone) -->
+	<link rel="apple-touch-startup-image" href="splash-640x920.jpg" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" />
+	<!-- iPad Portrait 768x1004 -->
+	<link rel="apple-touch-startup-image" href="splash-768x1004.jpg" media="(device-width: 768px) and (orientation: portrait)" />
+	<!-- iPad Landscape 748x1024 (yes, a portrait image but with content rotated 90 degrees - allows 20px for status bar) -->
+	<link rel="apple-touch-startup-image" href="splash-748x1024.jpg" media="(device-width: 768px) and (orientation: landscape)" />
+	<!-- iPad retina Portrait 1536x2008 -->
+	<link rel="apple-touch-startup-image" href="splash-1536x2008.jpg" media="(device-width: 768px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" />
+	<!-- iPad retina Landscape 1496x2048 (yes, a portrait image but with content rotated 90 degrees - allows 40px for status bar) -->
+	<link rel="apple-touch-startup-image" href="splash-1496x2048.jpg" media="(device-width: 768px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" />
+
+
+
+	<style>
+		/* The following CSS prevents Safari from changing the font size when the device is rotated - you may or may not need this */
+		body, html {
+			-webkit-text-size-adjust: 100%; /* prevents text size from changing on orientation change */
+		}
+	</style>
+</head>
+<body>
+<h3>iOS Safari Web App Template</h3>
+<ul>
+	<li><a target="_blank" href="https://gregsramblings.com">Blog Post</a></li>
+	<li><a target="_blank" href="https://github.com/gwilson/iOSWebAppTemplates">Github project</a></li>
+	<li><a target="_blank" href="http://developer.apple.com/library/safari/#documentation/appleapplications/reference/SafariHTMLRef/Articles/MetaTags.html">iOS Safari Meta tag docs</a></li>
+	<li><a target="_blank" href="http://developer.apple.com/library/safari/#referencelibrary/GettingStarted/GS_iPhoneWebApp/_index.html">Getting Started with iOS Web Apps</a></li>
+</ul>
+</body>
+</html>
