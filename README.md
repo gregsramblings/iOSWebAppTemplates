@@ -10,6 +10,6 @@ Few fun facts:
 
 The <strong>webapp1</strong> template is a simple web app that has icons and splash screens that have been tested on an iPhone 3Gs, iPhone 4, iPhone 4s, iPad 1, iPad 2, and the "new iPad (retina).
 
-You can test <strong>webapp1</strong> at <a target="_blank" href="http://gregsramblings.com/webapp1">http://gregsramblings.com/webapp1</a>
+You can test <strong>webapp1</strong> by pointing your iOS Safari browser to <a href="http://gregsramblings.com/webapp1">http://gregsramblings.com/webapp1</a>, click the share button and select "Add to Home Screen".  You should see the icon and you should see splash screens when you launch it.
 
 More templates coming soon that include offline support and more.
