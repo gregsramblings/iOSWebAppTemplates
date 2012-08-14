@@ -6,8 +6,7 @@ Fun facts:
 <ul>
 <li>iPhones don't need a landscape splash screen.  The apps always display a portrait splash image regardless of orientation.  The app itself will turn landscape as expected, but it always launches as portrait.</li>
 <li>The iPad landscape splash screen is a weird thing -- it actually requires a portrait-shaped image with rotated content so if you view it in any image viewer, it will appear 90 degrees rotated. (see the sample images in the repo)</li>
-<li>My examples use square images and allow the device to add the rounded corners and the lighting highlights. I think it looks far better than any attempt I would make.  See <a href="You can test <strong>webapp1</strong> by pointing your iOS Safari browser to <a href="http://gregsramblings.com/webapp1">http://gregsramblings.com/webapp1</a>, click the share button and select "Add to Home Screen".  You should see the icon and you should see splash screens when you launch it.
-">the Apple Safari docs</a> for information on how to precompose your icon's rounded corners and reflections.</li>
+<li>My examples use square images and allow the device to add the rounded corners and the lighting highlights. I think it looks far better than any attempt I would make.  See the <a href="http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html">Apple docs on configuring web apps</a> for information on how to precompose your icon's rounded corners and reflections.</li>
 </ul>
 
 <h2>webapp1-plain</h2>
@@ -22,6 +21,7 @@ You can test <strong>webapp2</strong> by pointing your iOS Safari browser to <a 
 
 <strong>more coming soon including offline support</strong>
 
+<h2>Resources</h2>
 Blog - <a href="http://gregsramblings.com">http://gregsramblings.com</a>
 
 Twitter - <a href="http://twitter.com/gregsramblings">@gregsramblings</a>
