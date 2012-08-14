@@ -23,4 +23,5 @@ You can test <strong>webapp2</strong> by pointing your iOS Safari browser to <a 
 <strong>more coming soon including offline support</strong>
 
 Blog - <a href="http://gregsramblings.com">http://gregsramblings.com</a>
+
 Twitter - <a href="http://twitter.com/gregsramblings">@gregsramblings</a>
