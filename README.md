@@ -1,5 +1,8 @@
-Creating iOS web apps can be very error prone.  The size requirements for icons and splash screens are odd and there are a few things that are non-obvious (e.g. the iPad landscape splash image is actually a portrait-shaped image but has it's contents rotated; Retina displays reserve 40 pixels for the status bar while non-retina reserve 20 pixels, etc.).  Also, if you screw something up, you get no errors.  It just simply doesn't work leaving you to guess/hack.
 <img align="right" width="200" height="376" src="http://gallery.tigeraerial.com/photos/i-gsCSsvf/0/O/i-gsCSsvf.png">
+An iOS web application uses HTML/CSS/JS to deliver a iOS experience that looks and behaves like a built-in iOS application.  If done correctly, the user can't tell that it's not a "normal" app.
+
+Creating iOS web apps can be very error prone.  The size requirements for icons and splash screens are odd and there are a few things that are non-obvious (e.g. the iPad landscape splash image is actually a portrait-shaped image but has it's contents rotated; Retina displays reserve 40 pixels for the status bar while non-retina reserve 20 pixels, etc.).  Also, if you screw something up, you get no errors.  It just simply doesn't work leaving you to guess/hack.
+
 What started as a 15 minute attempt to get icons and splash screens working for my web app resulted in a couple of hours of what felt like pure hacking.  Many of the online resources (including Apple's!) were out of date and didn't include information on handling iPad retina icons/images.  I decided to share my results to hopefully spare others from the frustrating experience.
 
 Fun facts:
