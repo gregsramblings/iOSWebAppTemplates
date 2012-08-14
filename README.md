@@ -8,8 +8,12 @@ Few fun facts:
 <li>The iPad landscape splash screen is a weird thing -- it's actually a portrait-shaped image with rotated content.  
 </ul>
 
-The <strong>webapp1</strong> template is a simple web app that has icons and splash screens that have been tested on an iPhone 3Gs, iPhone 4, iPhone 4s, iPad 1, iPad 2, and the "new iPad (retina).
+<h2>webapp1-plain</h2>
+The <strong>webapp1</strong> template is a simple web app that has icons and splash screens that has been tested on an iPhone 3Gs, iPhone 4, iPhone 4s, iPad 1, iPad 2, and the "new iPad (retina).
 
 You can test <strong>webapp1</strong> by pointing your iOS Safari browser to <a href="http://gregsramblings.com/webapp1">http://gregsramblings.com/webapp1</a>, click the share button and select "Add to Home Screen".  You should see the icon and you should see splash screens when you launch it.
 
-More templates coming soon that include offline support and more.
+<h2>webapp2-add2home</h2>
+This is the same as webapp1 but adds Matteo Spinelli's "add to home" script functionality that prompts the user to add the web app to their home screen with simple and clear instructions.  See <a href="http://cubiq.org/add-to-home-screen">http://cubiq.org/add-to-home-screen</a> for more information.
+
+You can test <strong>webapp2</strong> by pointing your iOS Safari browser to <a href="http://gregsramblings.com/webapp2">http://gregsramblings.com/webapp2</a> - you should see a popup that points to the share button explaining how to add the app to the home screen.
