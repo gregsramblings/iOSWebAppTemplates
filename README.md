@@ -1,4 +1,5 @@
 <img align="right" width="200" height="376" src="http://gallery.tigeraerial.com/photos/i-gsCSsvf/0/O/i-gsCSsvf.png">
+<b>UPDATE:</b> Tested with iOS7 running on iPhone 4s - works as-is<br>
 An iOS web application uses HTML/CSS/JS to deliver a iOS experience that looks and behaves like a native iOS application.  If done correctly, the user can't tell that it's not a "normal" app.  Although the capabilities are limited, it can be a great solution for many apps where going through the normal iOS app store is overkill or not practical.
 
 Creating iOS web apps can be very error prone.  The size requirements for icons and splash screens are odd and there are a few things that are non-obvious (e.g. the iPad landscape splash image is actually a portrait-shaped image but has it's contents rotated; Retina displays reserve 40 pixels for the status bar while non-retina reserve 20 pixels, etc.).  Also, if you screw something up, you get no errors.  It just simply doesn't work leaving you to guess/hack.
