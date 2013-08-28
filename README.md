@@ -13,7 +13,7 @@ Fun facts:
 </ul>
 
 <h2>webapp1-plain</h2>
-The <strong>webapp1</strong> template is a simple web app that has icons and splash screens that has been tested on an iPhone 3Gs, iPhone 4, iPhone 4s, iPad 1, iPad 2, and the "new iPad (retina).
+The <strong>webapp1</strong> template is a simple web app that has icons and splash screens that has been tested on an iPhone 3Gs, iPhone 4, iPhone 4s, iPhone 5, iPad 1, iPad 2, and the retina iPads.
 
 You can test <strong>webapp1</strong> by pointing your iOS Safari browser to <a href="http://gregsramblings.com/webapp1">http://gregsramblings.com/webapp1</a>, click the share button and select "Add to Home Screen".  You should see the icon and you should see splash screens when you launch it.
 
